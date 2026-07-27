@@ -39,7 +39,8 @@ table{border-collapse:collapse;width:100%}
 /* ===== Header ===== */
 .hd{
   position:sticky;top:0;z-index:100;background:var(--brand-yellow);
-  padding:18px 40px;display:flex;align-items:center;justify-content:space-between;
+  padding:18px max(40px, calc((100vw - 1500px) / 2));
+  display:flex;align-items:center;justify-content:space-between;
   border-bottom:1px solid rgba(0,0,0,.06);
 }
 .hd-l{display:flex;align-items:center;gap:24px}
