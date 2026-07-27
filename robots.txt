@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /_partials/
+Disallow: /*.sh$
+
+Sitemap: https://www.mark3dprint.com/sitemap.xml

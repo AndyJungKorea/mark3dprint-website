@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.mark3dprint.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.mark3dprint.com/about</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mark3dprint.com/printers</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.mark3dprint.com/printers/mark-two</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/printers/x7</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/printers/fx10</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/printers/fx20</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials</loc><priority>0.9</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/onyx</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/onyx-fr</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/onyx-esd</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/nylon-white-fs</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/ultem</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/vega</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/carbon-fiber</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/carbon-fiber-fr</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/fiberglass</loc><priority>0.6</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/hsht-fiberglass</loc><priority>0.6</priority></url>
+  <url><loc>https://www.mark3dprint.com/materials/kevlar</loc><priority>0.6</priority></url>
+  <url><loc>https://www.mark3dprint.com/industries</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/software</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/service</loc><priority>0.8</priority></url>
+  <url><loc>https://www.mark3dprint.com/inquiry</loc><priority>0.9</priority></url>
+  <url><loc>https://www.mark3dprint.com/faq</loc><priority>0.7</priority></url>
+  <url><loc>https://www.mark3dprint.com/privacy</loc><priority>0.3</priority></url>
+  <url><loc>https://www.mark3dprint.com/terms</loc><priority>0.3</priority></url>
+</urlset>
