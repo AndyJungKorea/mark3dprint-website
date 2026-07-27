@@ -17,16 +17,17 @@
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"마크쓰리디프린트","alternateName":"Mark 3D Print","url":"https://www.mark3dprint.com","description":"Markforged 한국 공식 대리점.","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"경기도 성남시 중원구 갈마치로288번길 14, SK V1 Tower A동 1407호","addressLocality":"성남시","addressRegion":"경기도","postalCode":"13201","addressCountry":"KR"},"telephone":"+82-2-406-4387","email":"sales@mark3dprint.com"}
+{"@context":"https://schema.org","@type":"Organization","name":"마크쓰리디프린트","alternateName":"Mark 3D Print","url":"https://www.mark3dprint.com","logo":"https://www.mark3dprint.com/images/logo-mark3dprint.png","description":"Markforged 한국 공식 대리점.","foundingDate":"2018","address":{"@type":"PostalAddress","streetAddress":"경기도 성남시 중원구 갈마치로288번길 14, SK V1 Tower A동 1407호","addressLocality":"성남시","addressRegion":"경기도","postalCode":"13201","addressCountry":"KR"},"telephone":"+82-2-406-4387","email":"sales@mark3dprint.com"}
 </script>
 
 </head>
 <body>
 <header class="hd">
   <div class="hd-l">
-    <a href="/" aria-label="Mark 3D Print 홈" style="display:flex;align-items:center;gap:18px">
-      <span><span class="lg-mf"><span class="hex"></span>Markforged<sup>®</sup></span><div class="lg-mf-sub">한국 공식 대리점</div></span>
-      <span class="lg-m3">MARK 3D PRINT</span>
+    <a href="/" aria-label="Mark 3D Print 홈" class="brand-lock">
+      <img src="/images/logo-markforged.png" alt="Markforged" class="lg-mf-img">
+      <span class="lg-divider" aria-hidden="true">|</span>
+      <img src="/images/logo-mark3dprint.png" alt="MARK 3D PRINT · 한국 공식 대리점" class="lg-m3-img">
     </a>
     <nav class="pri">
       <a href="/printers" data-nav="printers">3D 프린터</a>
@@ -197,7 +198,7 @@
     <p class="sec-p">산업용 적층 제조가 국내외 생산 · 물류 · 국방 준비 태세를 어떻게 변화시키고 있는지 실용적인 인사이트와 사례를 제공합니다.</p>
     <div class="card-grid">
       <article class="card reveal">
-        <div class="card-media kr" data-tag="국내 사례"></div>
+        <div class="card-media kr" data-tag="국내 사례" style="background-image:url(/images/case-onyx-clamp.jpg);background-size:cover;background-position:center"></div>
         <div class="card-body">
           <h3>국내 방산 연구기관 · 위성 픽스처</h3>
           <p>방산 연구기관에서 Onyx + 연속 카본 파이버로 위성 본체 경량 픽스처를 사내 제작.</p>
@@ -205,7 +206,7 @@
         <a href="/industries" class="card-link-overlay"></a>
       </article>
       <article class="card reveal">
-        <div class="card-media" data-tag="APPLICATION"></div>
+        <div class="card-media" data-tag="APPLICATION" style="background-image:url(/images/case-robot.jpg);background-size:cover;background-position:center"></div>
         <div class="card-body">
           <h3>팔 끝 툴링(EOAT)을 위한 3D 프린팅</h3>
           <p>엔지니어들이 3D 프린팅으로 EOAT를 사내 제작하여 리드 타임을 단축하는 방법.</p>
@@ -213,7 +214,7 @@
         <a href="/service" class="card-link-overlay"></a>
       </article>
       <article class="card reveal">
-        <div class="card-media" data-tag="CASE STUDY"></div>
+        <div class="card-media" data-tag="CASE STUDY" style="background-image:url(/images/case-guide-plate.jpg);background-size:cover;background-position:center"></div>
         <div class="card-body">
           <h3>분산 제조의 미래</h3>
           <p>글로벌 제조업체가 커넥티드 적층 시스템으로 어디서나 최종 사용 부품을 프린트하는 방법.</p>
@@ -221,7 +222,7 @@
         <a href="/software" class="card-link-overlay"></a>
       </article>
       <article class="card reveal">
-        <div class="card-media" data-tag="SPOTLIGHT"></div>
+        <div class="card-media" data-tag="SPOTLIGHT" style="background-image:url(/images/case-rotating.jpg);background-size:cover;background-position:center"></div>
         <div class="card-body">
           <h3>기업 전반의 적층 제조 규모 확장</h3>
           <p>선도적인 제조업체가 Digital Forge를 통해 보안과 확장성을 갖춘 작업을 구축한 방법.</p>
@@ -240,28 +241,28 @@
     <p class="sec-p">데스크톱부터 대형 산업용까지, 복합재부터 금속까지 대응하는 완전한 라인업.</p>
     <div class="printer-grid">
       <a href="/printers/mark-two" class="printer-tile">
-        <div class="tile-img"><span>M2</span></div>
+        <div class="tile-img"><img src="/images/printer-marktwo.png" alt="Mark Two"></div>
         <div class="tile-cat">데스크톱 복합재</div>
         <h4>Mark Two™</h4>
         <p>데스크톱 · 연속 섬유 4종 · 인장 800 MPa · 시제품 및 소량 툴링.</p>
         <div class="tile-tags"><span>CF · GF · Kevlar · HSHT</span><span>800 MPa</span></div>
       </a>
       <a href="/printers/x7" class="printer-tile">
-        <div class="tile-img"><span>X7</span></div>
+        <div class="tile-img" style="background:linear-gradient(135deg,#2a2a2a,#0a0a0a)"><span style="color:rgba(255,255,255,.6);font-size:64px;font-weight:900;letter-spacing:-.02em">X7</span></div>
         <div class="tile-cat">산업용 고정밀 복합재</div>
         <h4>X7™</h4>
         <p>레이저 마이크로미터 · 베드 80μm · Onyx FR · CF-FR 대응.</p>
         <div class="tile-tags"><span>CF-FR · Onyx FR</span><span>±50μm</span></div>
       </a>
       <a href="/printers/fx10" class="printer-tile">
-        <div class="tile-img"><span>FX10</span></div>
+        <div class="tile-img"><img src="/images/printer-fx10.png" alt="FX10"></div>
         <div class="tile-cat">복합재 + 금속 모듈식</div>
         <h4>FX10™</h4>
         <p>세계 최초 복합재 · 금속 통합. 60°C 가열 · 4베이 자동 스풀.</p>
         <div class="tile-tags"><span>Metal Kit</span><span>3,200cc 무인</span></div>
       </a>
       <a href="/printers/fx20" class="printer-tile">
-        <div class="tile-img"><span>FX20</span></div>
+        <div class="tile-img"><img src="/images/printer-fx20.png" alt="FX20"></div>
         <div class="tile-cat">대형 고온 산업용</div>
         <h4>FX20™</h4>
         <p>84L 대형 · 200°C 챔버 · ULTEM 9085 · Vega(PEKK) · 항공우주.</p>
@@ -360,8 +361,7 @@
   <div class="ft-in">
     <div class="ft-grid">
       <div class="ft-col ft-brand">
-        <div class="lg-mf-ft"><span class="hex"></span>Markforged</div>
-        <div class="lg-m3-ft">MARK 3D PRINT</div>
+        <img src="/images/logo-mark3dprint.png" alt="Mark 3D Print" style="height:48px;margin-bottom:16px;filter:brightness(0) invert(1)">
         <p><strong style="color:#fff">Mark 3D Print (마크쓰리디프린트)</strong></p>
         <p style="color:rgba(255,255,255,.55)">Markforged Korea Official VAR</p>
         <span class="ft-badge">2018년부터</span>
