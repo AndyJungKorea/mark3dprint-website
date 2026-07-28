@@ -366,12 +366,15 @@ table{border-collapse:collapse;width:100%}
 .mat-tile .specs strong{color:var(--brand-teal);font-weight:700}
 
 /* ===== Industries grid ===== */
-.ind-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
-.ind-tile{padding:32px 24px;background:var(--white);border:1px solid var(--line);border-radius:12px;text-align:center;transition:transform .15s,box-shadow .15s}
-.ind-tile:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.06)}
-.ind-tile .ic{width:60px;height:60px;background:var(--brand-teal-3);color:var(--brand-teal);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:28px;margin:0 auto 16px}
-.ind-tile h3{font-size:17px;font-weight:800;margin-bottom:8px}
-.ind-tile p{font-size:13px;color:var(--ink-4);line-height:1.55}
+.ind-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.ind-tile{aspect-ratio:1/1.15;border-radius:14px;overflow:hidden;position:relative;background:#0a1428 center/cover no-repeat;text-decoration:none;color:#fff;display:block;transition:transform .2s}
+.ind-tile:hover{transform:translateY(-4px)}
+.ind-tile::before{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,20,40,.15) 0%,rgba(10,20,40,.5) 45%,rgba(10,20,40,.92) 100%);transition:background .2s}
+.ind-tile:hover::before{background:linear-gradient(180deg,rgba(10,20,40,.35) 0%,rgba(10,20,40,.6) 45%,rgba(11,165,163,.95) 100%)}
+.ind-tile .ind-inner{position:absolute;bottom:0;left:0;right:0;padding:22px 22px 24px;z-index:2}
+.ind-tile h3{font-size:20px;font-weight:800;margin-bottom:6px;letter-spacing:-.01em;color:#fff;line-height:1.25}
+.ind-tile p{font-size:12.5px;color:rgba(255,255,255,.85);line-height:1.5;font-weight:500;letter-spacing:.005em}
+.ind-tile .ind-tag{position:absolute;top:16px;left:16px;font-size:10.5px;font-weight:700;color:var(--brand-teal-2);letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;background:rgba(0,0,0,.55);backdrop-filter:blur(4px);border-radius:4px;z-index:2}
 
 /* ===== FAQ Accordion ===== */
 .faq-list{margin-top:36px}
