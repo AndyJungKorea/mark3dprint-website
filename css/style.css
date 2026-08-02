@@ -171,6 +171,8 @@ table{border-collapse:collapse;width:100%}
 .hero-panel-media{height:230px;background:#050607;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden;margin-bottom:12px;display:grid;place-items:center}
 .hero-panel-media img{width:100%;height:100%;object-fit:contain;display:block}
 .hero-panel-media.cover img{object-fit:cover}
+.hero-panel-media.light{background:#f7f7f7}
+.hero-panel-media.light img{object-fit:contain}
 .hero-panel-media.lineup{height:150px;grid-template-columns:repeat(4,1fr);gap:1px;background:#111}
 .hero-panel-media.lineup img{object-fit:cover;min-width:0;min-height:0}
 .hero-panel-kicker{font-size:11px;text-transform:uppercase;color:var(--brand-teal-2);font-weight:800;margin-bottom:7px}
