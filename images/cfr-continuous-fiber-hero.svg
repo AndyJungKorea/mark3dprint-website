@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">연속섬유 강화 예시</title>
+  <desc id="desc">카본, 글래스, 케블라 연속섬유가 부품 내부 하중 경로를 따라 배치되는 구조를 보여주는 다이어그램</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060707"/>
+      <stop offset=".55" stop-color="#0b1114"/>
+      <stop offset="1" stop-color="#010202"/>
+    </linearGradient>
+    <linearGradient id="carbon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f21"/>
+      <stop offset=".48" stop-color="#0b0d0e"/>
+      <stop offset="1" stop-color="#020303"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f4e7"/>
+      <stop offset=".52" stop-color="#9c9d95"/>
+      <stop offset="1" stop-color="#525553"/>
+    </linearGradient>
+    <linearGradient id="kevlar" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6b74e"/>
+      <stop offset=".56" stop-color="#a86c21"/>
+      <stop offset="1" stop-color="#4b2f12"/>
+    </linearGradient>
+    <linearGradient id="tealLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".12" stop-color="#ffffff"/>
+      <stop offset=".13" stop-color="#00d6e4"/>
+      <stop offset="1" stop-color="#00d6e4"/>
+    </linearGradient>
+    <pattern id="lattice" width="46" height="46" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <path d="M0 0H46M0 23H46" stroke="#6d7473" stroke-width="2" opacity=".28"/>
+      <path d="M23 0V46" stroke="#8d9491" stroke-width="1.4" opacity=".16"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="34" stdDeviation="28" flood-color="#000000" flood-opacity=".58"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <path id="part" d="M270 73C326 58 391 77 419 126C434 153 433 186 417 213L395 250C451 260 503 297 525 349C554 418 514 483 454 519L395 555C353 581 324 625 319 674C312 751 250 809 177 809C123 809 81 766 81 712C81 665 111 627 153 614L186 604C170 574 151 546 130 519L73 445C29 386 31 306 78 249C118 200 184 178 242 191C222 145 227 92 270 73Z"/>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#bg)"/>
+  <path d="M-40 812L510 262M70 895L680 285M355 895L946 304M640 895L1228 307" stroke="#f5e71a" stroke-width="2" opacity=".06"/>
+  <rect x="34" y="34" width="1332" height="832" rx="28" fill="none" stroke="#f5e71a" stroke-opacity=".16"/>
+  <rect x="52" y="52" width="1296" height="796" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <g transform="translate(86 60)" filter="url(#shadow)">
+    <g transform="translate(210 0) rotate(4)">
+      <use href="#part" fill="url(#kevlar)" opacity=".88"/>
+      <use href="#part" fill="none" stroke="#f7bd4e" stroke-width="13" opacity=".86"/>
+    </g>
+    <g transform="translate(137 28) rotate(-2)">
+      <use href="#part" fill="url(#glass)" opacity=".84"/>
+      <use href="#part" fill="none" stroke="#eeeeee" stroke-width="10" opacity=".82"/>
+    </g>
+    <g transform="translate(58 58) rotate(-8)">
+      <use href="#part" fill="url(#carbon)"/>
+      <use href="#part" fill="url(#lattice)" opacity=".92"/>
+      <use href="#part" fill="none" stroke="#232828" stroke-width="13"/>
+      <use href="#part" fill="none" stroke="#7f8784" stroke-width="3" opacity=".45"/>
+    </g>
+  </g>
+
+  <g transform="translate(628 180)" font-family="Pretendard, Arial, sans-serif">
+    <g>
+      <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+      <path d="M0 0H140" stroke="url(#tealLine)" stroke-width="3"/>
+      <text x="162" y="8" fill="#00d6e4" font-size="32" font-weight="850">케블라 연속섬유 강화</text>
+      <text x="162" y="46" fill="#87929a" font-size="18" font-weight="650">충격 흡수 · 마모 대응</text>
+    </g>
+    <g transform="translate(-66 96)">
+      <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+      <path d="M0 0H206" stroke="url(#tealLine)" stroke-width="3"/>
+      <text x="228" y="8" fill="#00d6e4" font-size="32" font-weight="850">글래스 연속섬유 강화</text>
+      <text x="228" y="46" fill="#87929a" font-size="18" font-weight="650">고강성 · 경제성</text>
+    </g>
+    <g transform="translate(-140 366)">
+      <circle cx="0" cy="0" r="8" fill="#ffffff"/>
+      <path d="M0 0H280" stroke="url(#tealLine)" stroke-width="3"/>
+      <text x="302" y="8" fill="#00d6e4" font-size="32" font-weight="850">카본 연속섬유 강화</text>
+      <text x="302" y="46" fill="#87929a" font-size="18" font-weight="650">알루미늄급 강도 · 경량화</text>
+    </g>
+  </g>
+
+  <g transform="translate(878 638)">
+    <rect x="0" y="0" width="372" height="106" rx="14" fill="#050607" stroke="#ffffff" stroke-opacity=".12"/>
+    <path d="M30 54H154" stroke="#f5e71a" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M154 54C196 16 259 13 329 50" fill="none" stroke="#00d6e4" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <text x="30" y="38" fill="#f5e71a" font-family="Pretendard, Arial, sans-serif" font-size="18" font-weight="900">LOAD PATH</text>
+    <text x="30" y="86" fill="#ffffff" font-family="Pretendard, Arial, sans-serif" font-size="23" font-weight="850">하중 경로를 따라 섬유 배치</text>
+  </g>
+
+  <g transform="translate(92 780)" font-family="Pretendard, Arial, sans-serif">
+    <text x="0" y="0" fill="#ffffff" font-size="24" font-weight="800">그림. 연속섬유 강화 예시</text>
+    <text x="0" y="36" fill="#7b858c" font-size="18" font-weight="650">짧게 섞인 충전재가 아니라, 끊기지 않는 섬유가 실제 구조 강도를 담당합니다.</text>
+  </g>
+</svg>
