@@ -175,6 +175,36 @@ table{border-collapse:collapse;width:100%}
 .hero-panel-media.light img{object-fit:contain}
 .hero-panel-media.lineup{height:150px;grid-template-columns:repeat(4,1fr);gap:1px;background:#111}
 .hero-panel-media.lineup img{object-fit:cover;min-width:0;min-height:0}
+.hero-panel-media.printer-stage{
+  height:340px;
+  background:
+    radial-gradient(circle at 50% 42%,rgba(255,255,255,.12) 0%,rgba(255,255,255,.04) 35%,rgba(255,255,255,0) 62%),
+    linear-gradient(180deg,#151719 0%,#050607 100%);
+}
+.hero-panel-media.printer-stage img{
+  width:auto;
+  height:auto;
+  max-width:calc(100% - 24px);
+  max-height:316px;
+  object-fit:contain;
+  filter:drop-shadow(0 22px 34px rgba(0,0,0,.45));
+}
+.hero-panel-media.lineup.printer-strip{
+  height:190px;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  background:#050607;
+}
+.hero-panel-media.lineup.printer-strip img{
+  width:auto;
+  height:auto;
+  max-width:calc(100% - 20px);
+  max-height:170px;
+  min-width:0;
+  min-height:0;
+  object-fit:contain;
+  background:linear-gradient(180deg,#151719 0%,#050607 100%);
+  filter:drop-shadow(0 16px 24px rgba(0,0,0,.42));
+}
 .hero-panel-kicker{font-size:11px;text-transform:uppercase;color:var(--brand-teal-2);font-weight:800;margin-bottom:7px}
 .hero-panel-title{font-size:20px;line-height:1.25;font-weight:800;color:var(--white);margin-bottom:10px;overflow-wrap:anywhere}
 .hero-facts{display:grid;grid-template-columns:repeat(2,1fr);border:1px solid rgba(255,255,255,.1);border-radius:10px;overflow:hidden;margin-bottom:10px}
@@ -250,6 +280,7 @@ table{border-collapse:collapse;width:100%}
 .split-vis.printer{background:linear-gradient(135deg,#3a3a3a 0%,#0a0a0a 100%);display:flex;align-items:center;justify-content:center}
 .split-vis.printer .lbl{color:rgba(255,255,255,.15);font-size:80px;font-weight:900;letter-spacing:-.05em}
 .split-vis.photo{background:#0a1428 center/cover no-repeat;position:relative}
+.split-vis.photo.product-photo{background-size:contain;background-color:#050607}
 .split-vis.photo::before,.split-vis.photo::after{content:none !important}
 .split-vis.photo .caption{position:absolute;bottom:0;left:0;right:0;padding:20px 24px;background:linear-gradient(180deg,transparent 0%,rgba(0,0,0,.85) 100%);color:#fff;font-size:13px;font-weight:500;letter-spacing:.01em;line-height:1.4}
 .split-vis.photo .caption strong{display:block;font-size:15px;font-weight:700;margin-bottom:4px;color:var(--brand-teal-2);letter-spacing:.03em;text-transform:uppercase}
@@ -302,8 +333,8 @@ table{border-collapse:collapse;width:100%}
 .printer-tile:hover{background:rgba(255,255,255,.08);border-color:rgba(11,165,163,.4)}
 .printer-tile .tile-img{aspect-ratio:1/1;background:linear-gradient(180deg,#f5f5f5 0%, #e0e0e0 100%);border-radius:8px;margin-bottom:20px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
 .printer-tile .tile-img img{width:88%;height:88%;object-fit:contain;filter:drop-shadow(0 12px 20px rgba(0,0,0,.25))}
-.printer-tile .tile-img.product-shot{background:#050607;border:1px solid rgba(255,255,255,.06)}
-.printer-tile .tile-img.product-shot img{width:100%;height:100%;object-fit:cover;filter:none;transform:scale(1.01)}
+.printer-tile .tile-img.product-shot{background:linear-gradient(180deg,#151719 0%,#050607 100%);border:1px solid rgba(255,255,255,.08)}
+.printer-tile .tile-img.product-shot img{width:auto;height:auto;max-width:92%;max-height:92%;object-fit:contain;filter:drop-shadow(0 16px 26px rgba(0,0,0,.45));transform:none}
 .printer-tile .tile-img span{font-size:52px;color:rgba(255,255,255,.15);font-weight:800}
 .printer-tile h4{font-size:20px;font-weight:700;margin-bottom:6px}
 .printer-tile .tile-cat{font-size:12px;color:var(--brand-teal-2);font-weight:600;letter-spacing:.08em;margin-bottom:12px;text-transform:uppercase}
@@ -680,7 +711,11 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .spec-table th{width:40%}
   .decision-hero .hero-panel{padding:16px}
   .hero-panel-media{height:190px}
+  .hero-panel-media.printer-stage{height:290px}
+  .hero-panel-media.printer-stage img{max-height:260px}
   .hero-panel-media.lineup{height:150px;grid-template-columns:repeat(2,1fr)}
+  .hero-panel-media.lineup.printer-strip{height:280px}
+  .hero-panel-media.lineup.printer-strip img{max-height:120px}
   .hero-facts{grid-template-columns:1fr}
   .hero-fact,.hero-fact:nth-child(2n),.hero-fact:nth-last-child(-n+2){border-right:0;border-bottom:1px solid rgba(255,255,255,.1)}
   .hero-fact:last-child{border-bottom:0}
