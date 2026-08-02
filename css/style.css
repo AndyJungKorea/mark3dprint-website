@@ -899,6 +899,33 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   object-fit:contain;
   filter:drop-shadow(0 36px 46px rgba(0,0,0,.64));
 }
+.machine-video{
+  position:relative;
+  z-index:3;
+  width:min(76%,560px);
+  aspect-ratio:16/9;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:6px;
+  overflow:hidden;
+  background:#000;
+  box-shadow:
+    0 34px 54px rgba(0,0,0,.62),
+    0 0 0 1px rgba(245,231,26,.08);
+}
+.machine-video::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.08),transparent 30%,rgba(0,0,0,.10));
+}
+.machine-video iframe{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
 .stage-ring{
   position:absolute;
   border:1px solid rgba(245,231,26,.22);
@@ -929,8 +956,8 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   font-size:12px;
   font-weight:750;
 }
-.tag-one{left:22px;bottom:90px;border-left:3px solid var(--brand-yellow)}
-.tag-two{right:22px;top:86px;border-left:3px solid var(--brand-teal-2)}
+.tag-one{left:22px;bottom:72px;border-left:3px solid var(--brand-yellow)}
+.tag-two{right:22px;top:72px;border-left:3px solid var(--brand-teal-2)}
 .process-rail{
   position:relative;
   z-index:2;
@@ -1024,6 +1051,9 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .machine-panel{min-height:auto;padding:14px}
   .machine-stage{height:330px}
   .machine-stage img{max-width:82%;max-height:306px}
+  .machine-video{width:min(86%,560px)}
+  .tag-one{left:16px;bottom:64px}
+  .tag-two{right:16px;top:64px}
   .hero-specs{grid-template-columns:repeat(2,1fr)}
 }
 @media(max-width:620px){
@@ -1037,6 +1067,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .hero-microcopy{font-size:12px;line-height:1.6}
   .panel-topline{align-items:flex-start;flex-direction:column;gap:4px}
   .machine-stage{height:300px}
+  .machine-video{width:100%}
   .machine-tag{position:relative;left:auto;right:auto;top:auto;bottom:auto;min-width:0}
   .tag-one,.tag-two{border-left-width:3px}
   .machine-stage .machine-tag{display:none}
