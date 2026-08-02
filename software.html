@@ -1,12 +1,12 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>software | Mark 3D Print</title>
-<meta name="description" content="software">
-<meta property="og:title" content="software | Mark 3D Print">
-<meta property="og:description" content="software">
+<title>Markforged 소프트웨어 Eiger | Mark 3D Print</title>
+<meta name="description" content="Eiger, Simulation, Inspection, Blacksmith 등 Markforged 소프트웨어 운영 흐름을 확인하세요.">
+<meta property="og:title" content="Markforged 소프트웨어 Eiger | Mark 3D Print">
+<meta property="og:description" content="Eiger, Simulation, Inspection, Blacksmith 등 Markforged 소프트웨어 운영 흐름을 확인하세요.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.mark3dprint.com/software">
 <meta property="og:site_name" content="Mark 3D Print">
@@ -15,7 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css?v=20260801c">
+<link rel="stylesheet" href="/css/style.css?v=20260802g">
 </head>
 <body>
 <header class="hd">
@@ -45,19 +45,38 @@
 <aside class="drawer"><div class="drawer-close"><button onclick="toggleMenu(false)"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
 <nav><a href="/printers">3D 프린터</a><a href="/materials">재료</a><a href="/software">소프트웨어</a><a href="/industries">산업 분야</a><a href="/service">3D 프린팅 서비스</a><a href="/about">회사 소개</a><a href="/inquiry">제품 문의</a><a href="/faq">FAQ</a></nav>
 <a href="/inquiry" class="drawer-cta">제품 문의</a><a href="tel:024064387" class="drawer-tel"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.6a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.8.3 1.7.5 2.6.6a2 2 0 0 1 1.7 2z"/></svg> 02-406-4387</a></aside>
-<section class="page-hero">
+
+<section class="page-hero decision-hero">
   <div class="page-hero-in">
-    <div class="crumb"><a href="/">홈</a> / 소프트웨어</div>
-    <div class="subtitle">Software · Digital Forge</div>
-    <h1>프린터 · 소재 · 소프트웨어를<br>하나의 <em>디지털 포지</em>로.</h1>
-    <p class="lead">Digital Forge는 Markforged의 클라우드 기반 통합 플랫폼입니다. Eiger 슬라이서 · Simulation · Inspection · Fleet Management를 한 화면에서 운영하고, 엔터프라이즈 보안 · SSO · 감사 로그를 지원합니다.</p>
-    <div class="cta-row">
-      <a href="/inquiry" class="btn-pill">소프트웨어 상담 <span class="arr">→</span></a>
+    <div class="hero-copy">
+      <div class="crumb"><a href="/">홈</a> / 소프트웨어</div>
+      <div class="subtitle">Software · Eiger</div>
+      <h1>프린트 준비부터 보안까지<br><em>Eiger</em>로 운영</h1>
+      <p class="lead">Markforged 장비는 Eiger를 중심으로 파일 준비, 소재/섬유 배치, 장비 관리, 조직 보안을 연결합니다. 구매 검토자는 첫 화면에서 실제 운영 흐름과 필요한 계정 범위를 확인할 수 있습니다.</p>
+      <div class="cta-row">
+        <a href="/inquiry" class="btn-pill">소프트웨어 상담 <span class="arr">→</span></a>
+        <a href="#features" class="btn-pill outline">기능 보기 <span class="arr">↓</span></a>
+      </div>
     </div>
+    <aside class="hero-panel" aria-label="소프트웨어 핵심 요약">
+      <div class="hero-panel-media lineup"><img src="/images/mf-official-marktwo.webp" alt="Mark Two"><img src="/images/mf-official-x7.webp" alt="X7"><img src="/images/mf-official-fx10.webp" alt="FX10"><img src="/images/mf-official-fx20.webp" alt="FX20"></div>
+      <div class="hero-panel-kicker">Workflow</div>
+      <div class="hero-panel-title">도입 후 운영자가 매일 쓰는 핵심 흐름</div>
+      <div class="hero-facts">
+      <div class="hero-fact"><strong>파일 업로드</strong><span>STL · STEP 기반 프린트 준비</span></div>
+      <div class="hero-fact"><strong>섬유 배치</strong><span>강도 방향을 Eiger에서 지정</span></div>
+      <div class="hero-fact"><strong>장비 관리</strong><span>프린터 상태 · 작업 큐 확인</span></div>
+      <div class="hero-fact"><strong>보안 운영</strong><span>조직 계정 · 접근 권한 관리</span></div>
+      </div>
+      <p class="hero-fit">장비만 보는 것이 아니라, 누가 파일을 올리고 누가 승인하며 어떤 보안 수준이 필요한지까지 함께 설계합니다.</p>
+    <div class="hero-panel-actions">
+      <a class="primary" href="/inquiry">운영 상담</a>
+      <a class="secondary" href="#features">기능 확인</a>
+    </div>    </aside>
   </div>
 </section>
 
-<section class="sec">
+<section class="sec" id="features">
   <div class="sec-in">
     <div class="sec-head-center">
       <span class="eyebrow center">Modules</span>
@@ -141,6 +160,7 @@
     </div>
   </div>
 </section>
+
 <!-- 관련 페이지 크로스 링크 (모든 페이지 공통 · 사이트맵 기능) -->
 <section class="sec sm" style="background:var(--bg-2);border-top:1px solid var(--line)">
   <div class="sec-in">
