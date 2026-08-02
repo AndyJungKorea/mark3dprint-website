@@ -729,7 +729,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   gap:42px 58px;
   align-items:center;
 }
-.hero-copy{grid-area:copy;max-width:680px}
+.hero-copy{grid-area:copy;max-width:680px;position:relative}
 .hero-kicker{
   display:flex;
   flex-wrap:wrap;
@@ -823,6 +823,36 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   color:rgba(255,255,255,.48);
   font-size:13px;
   font-weight:700;
+}
+.fiber-proof{
+  position:absolute;
+  right:8px;
+  bottom:-54px;
+  width:150px;
+  padding:8px;
+  margin:0;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:6px;
+  background:rgba(3,4,5,.72);
+  box-shadow:
+    0 24px 54px rgba(0,0,0,.45),
+    inset 0 1px 0 rgba(255,255,255,.10);
+  transform:rotate(-1deg);
+}
+.fiber-proof::before{
+  content:'';
+  position:absolute;
+  inset:-1px;
+  border-radius:6px;
+  border:1px solid rgba(245,231,26,.22);
+  pointer-events:none;
+}
+.fiber-proof img{
+  width:100%;
+  height:auto;
+  border-radius:4px;
+  opacity:.96;
+  filter:contrast(1.04) brightness(1.02);
 }
 .hero-visual{
   grid-area:visual;
@@ -1063,6 +1093,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   }
   .hero-copy{max-width:860px}
   .hero-copy h1{font-size:52px}
+  .fiber-proof{right:12px;bottom:-38px;width:144px}
   .machine-panel{min-height:500px}
   .video-only-panel{min-height:500px}
   .machine-stage{height:340px}
@@ -1071,6 +1102,14 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .hero-premium{padding:68px 20px 32px;min-height:auto}
   .hero-copy h1{font-size:44px;line-height:1.1}
   .hero-lead{font-size:16px}
+  .fiber-proof{
+    position:relative;
+    right:auto;
+    bottom:auto;
+    width:min(250px,72vw);
+    margin:22px 0 0;
+    transform:none;
+  }
   .machine-panel{min-height:auto;padding:14px}
   .video-only-panel{min-height:380px}
   .machine-stage{height:330px}
@@ -1090,6 +1129,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .hero-actions{display:grid;grid-template-columns:1fr}
   .hero-btn{width:100%;min-height:50px}
   .hero-microcopy{font-size:12px;line-height:1.6}
+  .fiber-proof{width:min(220px,76vw)}
   .panel-topline{align-items:flex-start;flex-direction:column;gap:4px}
   .video-only-panel{min-height:260px}
   .machine-stage{height:300px}
