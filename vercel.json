@@ -1,26 +1,96 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/소프트웨어",
+      "destination": "/software",
+      "permanent": true
+    },
+    {
+      "source": "/소재의-종료",
+      "destination": "/materials",
+      "permanent": true
+    },
+    {
+      "source": "/3d-프린터-종류",
+      "destination": "/printers",
+      "permanent": true
+    },
+    {
+      "source": "/산업분야",
+      "destination": "/industries",
+      "permanent": true
+    },
+    {
+      "source": "/마크포지드의-장점",
+      "destination": "/difference",
+      "permanent": true
+    },
+    {
+      "source": "/key-features",
+      "destination": "/difference",
+      "permanent": true
+    },
+    {
+      "source": "/3d-printing-service",
+      "destination": "/service",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/service",
+      "permanent": true
+    },
+    {
+      "source": "/contactus",
+      "destination": "/inquiry",
+      "permanent": true
+    },
+    {
+      "source": "/blank-2",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        {"key": "X-Content-Type-Options", "value": "nosniff"},
-        {"key": "X-Frame-Options", "value": "SAMEORIGIN"},
-        {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"},
-        {"key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()"}
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "geolocation=(), microphone=(), camera=()"
+        }
       ]
     },
     {
       "source": "/images/(.*)",
       "headers": [
-        {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/css/(.*)",
       "headers": [
-        {"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     }
   ]
