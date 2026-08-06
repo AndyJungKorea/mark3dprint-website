@@ -8,7 +8,17 @@
       "permanent": true
     },
     {
+      "source": "/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4",
+      "destination": "/software",
+      "permanent": true
+    },
+    {
       "source": "/소재의-종료",
+      "destination": "/materials",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%86%8C%EC%9E%AC%EC%9D%98-%EC%A2%85%EB%A3%8C",
       "destination": "/materials",
       "permanent": true
     },
@@ -18,12 +28,27 @@
       "permanent": true
     },
     {
+      "source": "/3d-%ED%94%84%EB%A6%B0%ED%84%B0-%EC%A2%85%EB%A5%98",
+      "destination": "/printers",
+      "permanent": true
+    },
+    {
       "source": "/산업분야",
       "destination": "/industries",
       "permanent": true
     },
     {
+      "source": "/%EC%82%B0%EC%97%85%EB%B6%84%EC%95%BC",
+      "destination": "/industries",
+      "permanent": true
+    },
+    {
       "source": "/마크포지드의-장점",
+      "destination": "/difference",
+      "permanent": true
+    },
+    {
+      "source": "/%EB%A7%88%ED%81%AC%ED%8F%AC%EC%A7%80%EB%93%9C%EC%9D%98-%EC%9E%A5%EC%A0%90",
       "destination": "/difference",
       "permanent": true
     },
