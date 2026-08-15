@@ -174,6 +174,8 @@ table{border-collapse:collapse;width:100%}
 .decision-hero .hero-panel{min-width:0;background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.032));border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:16px;box-shadow:0 22px 80px rgba(0,0,0,.28)}
 .hero-panel-media{width:100%;aspect-ratio:3/2;max-height:320px;background:#050607;border:1px solid rgba(255,255,255,.08);border-radius:10px;overflow:hidden;margin-bottom:12px;display:grid;place-items:center}
 .hero-panel-media img{width:100%;height:100%;min-height:0;object-fit:cover;display:block}
+.hero-panel-media.svc-showcase-media{aspect-ratio:16/9;max-height:330px;padding:8px;background:linear-gradient(135deg,#111417,#060708)}
+.hero-panel-media.svc-showcase-media img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;border-radius:8px;filter:brightness(1.03) contrast(1.03)}
 .hero-panel-media.cover img{object-fit:cover}
 .hero-panel-media.light{background:#f7f7f7}
 .hero-panel-media.light img{object-fit:contain}
