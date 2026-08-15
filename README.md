@@ -41,3 +41,13 @@ _partials/               header · footer · main · build script (배포 제외
 
 ## 문의
 - 정기운 · 010-4253-4387 · sales@mark3dprint.com
+
+## SEO Landing Pages
+
+2026-08-15 added search-intent pages for Google/Naver visibility. Keep these pages useful and factual, and update sitemap.xml/rss.xml when adding or renaming them.
+
+- /markforged-korea: 마크포지드 한국 공식 대리점, 가격, 견적
+- /carbon-fiber-3d-printer: 탄소섬유 3D 프린터, 연속 섬유 CFR
+- /metal-replacement-3d-printing: 금속 대체 3D 프린팅, 알루미늄 부품 대체
+- /jigs-fixtures-3d-printing: 지그·픽스처 3D 프린팅, 치공구 제작
+- /materials/17-4ph, /materials/316l, /materials/h13: FX10 Metal Kit 금속 재료 검색 대응

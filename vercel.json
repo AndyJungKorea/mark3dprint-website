@@ -76,6 +76,51 @@
       "source": "/blank-2",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/마크포지드-한국-대리점",
+      "destination": "/markforged-korea",
+      "permanent": true
+    },
+    {
+      "source": "/마크포지드-가격",
+      "destination": "/markforged-korea",
+      "permanent": true
+    },
+    {
+      "source": "/마크포지드-견적",
+      "destination": "/markforged-korea",
+      "permanent": true
+    },
+    {
+      "source": "/탄소섬유-3d-프린터",
+      "destination": "/carbon-fiber-3d-printer",
+      "permanent": true
+    },
+    {
+      "source": "/연속섬유-3d-프린터",
+      "destination": "/carbon-fiber-3d-printer",
+      "permanent": true
+    },
+    {
+      "source": "/금속-대체-3d-프린팅",
+      "destination": "/metal-replacement-3d-printing",
+      "permanent": true
+    },
+    {
+      "source": "/알루미늄-대체-3d프린팅",
+      "destination": "/metal-replacement-3d-printing",
+      "permanent": true
+    },
+    {
+      "source": "/지그-픽스처-3d-프린팅",
+      "destination": "/jigs-fixtures-3d-printing",
+      "permanent": true
+    },
+    {
+      "source": "/치공구-3d-프린팅",
+      "destination": "/jigs-fixtures-3d-printing",
+      "permanent": true
     }
   ],
   "headers": [
