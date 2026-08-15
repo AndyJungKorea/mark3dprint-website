@@ -1472,3 +1472,67 @@ footer{background:var(--ink);color:rgba(255,255,255,.6);padding:80px 40px 40px}
   .exh-grid{grid-template-columns:1fr}
   .exh-tile.large{grid-column:auto}
 }
+
+/* ===== News: 뉴스로 보는 마크포지드 ===== */
+.sec.news-mf{background:var(--bg-2)}
+.news-grid{margin-top:44px}
+.news-card{
+  background:var(--bg);border:1px solid var(--line);border-radius:14px;
+  padding:38px 40px;max-width:960px;
+}
+.news-meta{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.news-outlet{
+  display:inline-flex;align-items:center;padding:5px 12px;border-radius:999px;
+  background:var(--ink);color:#fff;font-size:12px;font-weight:700;letter-spacing:.02em;
+}
+.news-date{font-size:12.5px;font-weight:600;color:var(--ink-4)}
+.news-title{
+  font-size:26px;line-height:1.32;font-weight:800;color:var(--ink);
+  margin:0 0 10px;letter-spacing:-.02em;word-break:keep-all;text-wrap:balance;
+}
+.news-sub{
+  font-size:15px;font-weight:600;color:var(--ink-3);margin:0 0 22px;
+  padding-bottom:20px;border-bottom:1px solid var(--line-2);word-break:keep-all;
+}
+.news-body{font-size:15.5px;line-height:1.78;color:var(--ink-3);margin:0 0 24px;word-break:keep-all}
+.news-points{list-style:none;margin:0 0 26px;padding:0;display:grid;gap:12px}
+.news-points li{
+  position:relative;padding-left:20px;font-size:15px;line-height:1.7;
+  color:var(--ink-3);word-break:keep-all;
+}
+.news-points li::before{
+  content:"";position:absolute;left:0;top:11px;width:7px;height:7px;
+  border-radius:2px;background:var(--brand-yellow);
+}
+.news-points strong{color:var(--ink);font-weight:700}
+.news-quote{
+  margin:0 0 28px;padding:20px 24px;border-left:3px solid var(--brand-yellow);
+  background:var(--bg-2);border-radius:0 8px 8px 0;
+  font-size:15px;line-height:1.72;color:var(--ink-2);word-break:keep-all;
+}
+.news-quote cite{
+  display:block;margin-top:10px;font-style:normal;font-size:13.5px;
+  font-weight:600;color:var(--ink-4);
+}
+.news-link{
+  display:inline-flex;align-items:center;gap:7px;font-size:14.5px;font-weight:700;
+  color:var(--ink);text-decoration:none;padding-bottom:3px;
+  border-bottom:2px solid var(--brand-yellow);transition:gap .18s ease;
+}
+.news-link::after{content:"↗";font-size:13px}
+.news-link:hover{gap:11px}
+.news-foot{
+  display:flex;align-items:center;justify-content:space-between;gap:28px;
+  margin-top:40px;padding-top:32px;border-top:1px solid var(--line);max-width:960px;
+}
+.news-foot-p{margin:0;font-size:15px;line-height:1.7;color:var(--ink-3);word-break:keep-all;flex:1}
+@media (max-width:940px){
+  .news-card{padding:30px 26px}
+  .news-title{font-size:22px}
+  .news-foot{flex-direction:column;align-items:flex-start;gap:20px}
+}
+@media (max-width:600px){
+  .news-card{padding:26px 20px}
+  .news-title{font-size:20px}
+  .news-body,.news-points li{font-size:14.5px}
+}
