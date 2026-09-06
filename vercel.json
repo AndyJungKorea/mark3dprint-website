@@ -18,7 +18,17 @@
       "permanent": true
     },
     {
+      "source": "/소재의-종류",
+      "destination": "/materials",
+      "permanent": true
+    },
+    {
       "source": "/%EC%86%8C%EC%9E%AC%EC%9D%98-%EC%A2%85%EB%A3%8C",
+      "destination": "/materials",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%86%8C%EC%9E%AC%EC%9D%98-%EC%A2%85%EB%A5%98",
       "destination": "/materials",
       "permanent": true
     },

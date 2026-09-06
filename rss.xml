@@ -5,34 +5,55 @@
     <link>https://www.mark3dprint.com/</link>
     <description>Markforged 한국 공식 대리점 마크쓰리디프린트의 산업용 3D 프린팅 도입 자료입니다.</description>
     <language>ko-KR</language>
-    <lastBuildDate>Sat, 15 Aug 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 00:00:00 +0900</lastBuildDate>
     <item>
-      <title>마크포지드 한국 공식 대리점 도입 상담</title>
+      <title>마크포지드 가격 · 견적 한국 공식 대리점 상담</title>
       <link>https://www.mark3dprint.com/markforged-korea</link>
       <guid>https://www.mark3dprint.com/markforged-korea</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
-      <description>Markforged 산업용 3D 프린터 가격, 견적, 샘플 검증, 설치, 유지 보수 상담 안내.</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>마크포지드 가격, 견적, Mark Two·X7·FX10·FX20 장비 선정, 샘플 검증, 설치, 유지 보수 상담 안내.</description>
     </item>
     <item>
-      <title>탄소섬유 3D 프린터와 연속 섬유 CFR</title>
+      <title>탄소섬유 3D 프린터와 연속 섬유 CFR 3D 프린팅</title>
       <link>https://www.mark3dprint.com/carbon-fiber-3d-printer</link>
       <guid>https://www.mark3dprint.com/carbon-fiber-3d-printer</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
-      <description>탄소섬유 3D 프린터, 절단 섬유와 연속 섬유 차이, Markforged CFR 적용 기준 안내.</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>탄소섬유 3D 프린터, 절단 섬유와 연속 섬유 차이, Markforged CFR 지그·치공구 적용 기준 안내.</description>
     </item>
     <item>
-      <title>금속 대체 3D 프린팅 검토</title>
+      <title>금속 대체 3D 프린팅과 알루미늄 대체 검토</title>
       <link>https://www.mark3dprint.com/metal-replacement-3d-printing</link>
       <guid>https://www.mark3dprint.com/metal-replacement-3d-printing</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
-      <description>알루미늄 지그, 픽스처, 브래킷, 금속 대체 부품 검토 기준 안내.</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>알루미늄 지그, 픽스처, 브래킷을 CFR 또는 FX10 Metal Kit 금속 출력으로 검토하는 기준 안내.</description>
     </item>
     <item>
-      <title>지그·픽스처 3D 프린팅 제작</title>
+      <title>지그·픽스처·치공구 3D 프린팅 제작</title>
       <link>https://www.mark3dprint.com/jigs-fixtures-3d-printing</link>
       <guid>https://www.mark3dprint.com/jigs-fixtures-3d-printing</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0900</pubDate>
-      <description>생산 현장 지그, 픽스처, 검사구, 로봇 툴링 제작 상담 안내.</description>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>생산 현장 지그, 픽스처, 치공구, 검사구, 로봇 툴링 제작 상담 안내.</description>
+    </item>
+    <item>
+      <title>FX10 Metal Kit 17-4PH v2 금속 3D 프린팅</title>
+      <link>https://www.mark3dprint.com/materials/17-4ph</link>
+      <guid>https://www.mark3dprint.com/materials/17-4ph</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>17-4PH v2 고강도 스테인리스 금속 3D 프린팅 재료와 산업 부품 적용 기준 안내.</description>
+    </item>
+    <item>
+      <title>FX10 Metal Kit 316L v2 금속 3D 프린팅</title>
+      <link>https://www.mark3dprint.com/materials/316l</link>
+      <guid>https://www.mark3dprint.com/materials/316l</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>316L v2 내식성 스테인리스 금속 3D 프린팅 재료와 의료·식품·해양 환경 적용 기준 안내.</description>
+    </item>
+    <item>
+      <title>FX10 Metal Kit H13 v2 금속 3D 프린팅</title>
+      <link>https://www.mark3dprint.com/materials/h13</link>
+      <guid>https://www.mark3dprint.com/materials/h13</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
+      <description>H13 v2 공구강 금속 3D 프린팅 재료와 사출·다이캐스팅 주변 공구 적용 기준 안내.</description>
     </item>
   </channel>
 </rss>
