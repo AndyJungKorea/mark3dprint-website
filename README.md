@@ -10,6 +10,7 @@
 ## 구조
 ```
 /                        홈
+/markforged             마크포지드 브랜드·한국 도입 가이드
 /about                   회사 소개
 /printers                프린터 라인업
   /printers/mark-two     Mark Two 상세
@@ -47,6 +48,7 @@ _partials/               header · footer · main · build script (배포 제외
 2026-08-15 added search-intent pages for Google/Naver visibility. Keep these pages useful and factual, and update sitemap.xml/rss.xml when adding or renaming them.
 
 - /markforged-korea: 마크포지드 한국 공식 대리점, 가격, 견적
+- /markforged: 마크포지드 단독 브랜드 검색, 한국 도입 가이드
 - /carbon-fiber-3d-printer: 탄소섬유 3D 프린터, 연속 섬유 CFR
 - /metal-replacement-3d-printing: 금속 대체 3D 프린팅, 알루미늄 부품 대체
 - /jigs-fixtures-3d-printing: 지그·픽스처 3D 프린팅, 치공구 제작

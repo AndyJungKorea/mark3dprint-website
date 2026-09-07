@@ -88,6 +88,16 @@
       "permanent": true
     },
     {
+      "source": "/마크포지드",
+      "destination": "/markforged",
+      "permanent": true
+    },
+    {
+      "source": "/%EB%A7%88%ED%81%AC%ED%8F%AC%EC%A7%80%EB%93%9C",
+      "destination": "/markforged",
+      "permanent": true
+    },
+    {
       "source": "/마크포지드-한국-대리점",
       "destination": "/markforged-korea",
       "permanent": true
