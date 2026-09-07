@@ -11,6 +11,10 @@
 ```
 /                        홈
 /markforged             마크포지드 브랜드·한국 도입 가이드
+/markforged-price       마크포지드 가격·견적 산정 기준
+/mark-two-quote         Mark Two 견적·연구실 도입
+/fx10-quote             FX10 견적·공장 현장 도입
+/fx20-quote             FX20 견적·대형 고온 부품 검토
 /about                   회사 소개
 /printers                프린터 라인업
   /printers/mark-two     Mark Two 상세
@@ -49,6 +53,8 @@ _partials/               header · footer · main · build script (배포 제외
 
 - /markforged-korea: 마크포지드 한국 공식 대리점, 가격, 견적
 - /markforged: 마크포지드 단독 브랜드 검색, 한국 도입 가이드
+- /markforged-price: 마크포지드 가격, 견적 산정 기준
+- /mark-two-quote, /fx10-quote, /fx20-quote: 모델명 + 가격/견적 구매 의도 검색 대응
 - /carbon-fiber-3d-printer: 탄소섬유 3D 프린터, 연속 섬유 CFR
 - /metal-replacement-3d-printing: 금속 대체 3D 프린팅, 알루미늄 부품 대체
 - /jigs-fixtures-3d-printing: 지그·픽스처 3D 프린팅, 치공구 제작

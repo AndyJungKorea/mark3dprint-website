@@ -1,0 +1,19 @@
+{
+  "name": "Mark 3D Print",
+  "short_name": "Mark3D",
+  "description": "Markforged Korea official VAR for industrial composite and metal 3D printing.",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0b0d0e",
+  "theme_color": "#ffee00",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

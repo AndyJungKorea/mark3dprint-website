@@ -104,12 +104,92 @@
     },
     {
       "source": "/마크포지드-가격",
-      "destination": "/markforged-korea",
+      "destination": "/markforged-price",
+      "permanent": true
+    },
+    {
+      "source": "/%EB%A7%88%ED%81%AC%ED%8F%AC%EC%A7%80%EB%93%9C-%EA%B0%80%EA%B2%A9",
+      "destination": "/markforged-price",
       "permanent": true
     },
     {
       "source": "/마크포지드-견적",
-      "destination": "/markforged-korea",
+      "destination": "/markforged-price",
+      "permanent": true
+    },
+    {
+      "source": "/%EB%A7%88%ED%81%AC%ED%8F%AC%EC%A7%80%EB%93%9C-%EA%B2%AC%EC%A0%81",
+      "destination": "/markforged-price",
+      "permanent": true
+    },
+    {
+      "source": "/markforged-quote",
+      "destination": "/markforged-price",
+      "permanent": true
+    },
+    {
+      "source": "/마크투-견적",
+      "destination": "/mark-two-quote",
+      "permanent": true
+    },
+    {
+      "source": "/마크투-가격",
+      "destination": "/mark-two-quote",
+      "permanent": true
+    },
+    {
+      "source": "/mark-two-price",
+      "destination": "/mark-two-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx10-견적",
+      "destination": "/fx10-quote",
+      "permanent": true
+    },
+    {
+      "source": "/FX10-견적",
+      "destination": "/fx10-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx10-가격",
+      "destination": "/fx10-quote",
+      "permanent": true
+    },
+    {
+      "source": "/FX10-가격",
+      "destination": "/fx10-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx10-price",
+      "destination": "/fx10-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx20-견적",
+      "destination": "/fx20-quote",
+      "permanent": true
+    },
+    {
+      "source": "/FX20-견적",
+      "destination": "/fx20-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx20-가격",
+      "destination": "/fx20-quote",
+      "permanent": true
+    },
+    {
+      "source": "/FX20-가격",
+      "destination": "/fx20-quote",
+      "permanent": true
+    },
+    {
+      "source": "/fx20-price",
+      "destination": "/fx20-quote",
       "permanent": true
     },
     {
